@@ -18,7 +18,39 @@ A* Search Alogrithm demostrating with UI interface
 
 # (3)Heuristic Fuction
 Adjust different heuristic functions to approach various search algorithm
-- h(n)=\sqrt(x_n*x_n+y_n*y_n)
-- $2^2$
+- <img src="https://render.githubusercontent.com/render/math?math=h(n)=\sqrt{x_n^2%2By_n^2}">：
+
+<p align="center">
+  <img src="https://github.com/bizhili/A-Search-Alogrithm/blob/main/pic/sqrt(xxplusyy).png" width="320" height="320">
+</p>
+
+- <img src="https://render.githubusercontent.com/render/math?math=h(n)=|x_n|%2B|y_n|">：
+
+<p align="center">
+  <img src="https://github.com/bizhili/A-Search-Alogrithm/blob/main/pic/abs(x)plusabs(y).png" width="320" height="320">
+</p>
+
+- <img src="https://render.githubusercontent.com/render/math?math=h(n)=|x_n-y_n|">(An interesting search 2333)：
+
+<p align="center">
+  <img src="https://github.com/bizhili/A-Search-Alogrithm/blob/main/pic/x-y.png" width="320" height="320">
+</p>
+
+- <img src="https://render.githubusercontent.com/render/math?math=h(n)=\sqrt{x_n^2%2By_n^2}*1000">(Hight weight of heuristic function,similar to Greedy Search Algorithm)：
+
+<p align="center">
+  <img src="https://github.com/bizhili/A-Search-Alogrithm/blob/main/pic/sqrt(xxplusyy)1000.png" width="320" height="320">
+</p>
+
+- <img src="https://render.githubusercontent.com/render/math?math=h(n)=\sqrt{x_n^2%2By_n^2}/1000">(Hight weight of heuristic function,similar to Greedy Search Algorithm)：
+
+<p align="center">
+  <img src="https://github.com/bizhili/A-Search-Alogrithm/blob/main/pic/sqrt(xxplusyy)divide1000.png" width="320" height="320">
+</p>
+
+# (4)Next step
+Not planed
+
+
 
 
