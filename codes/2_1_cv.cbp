@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="2_1_cv" />
+		<Option pch_mode="2" />
+		<Option compiler="gnu_gcc_compiler_new" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/2_1_cv" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gnu_gcc_compiler_new" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/2_1_cv" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gnu_gcc_compiler_new" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++14" />
+			<Add option="-fexceptions" />
+			<Add directory="C:/opencv/include" />
+			<Add directory="C:/opencv/include/opencv2" />
+		</Compiler>
+		<Linker>
+			<Add library="C:/opencv/x64/mingw/lib/libopencv_calib3d411.dll.a" />
+			<Add library="C:/opencv/x64/mingw/lib/libopencv_core411.dll.a" />
+			<Add library="C:/opencv/x64/mingw/lib/libopencv_dnn411.dll.a" />
+			<Add library="C:/opencv/x64/mingw/lib/libopencv_features2d411.dll.a" />
+			<Add library="C:/opencv/x64/mingw/lib/libopencv_flann411.dll.a" />
+			<Add library="C:/opencv/x64/mingw/lib/libopencv_gapi411.dll.a" />
+			<Add library="C:/opencv/x64/mingw/lib/libopencv_highgui411.dll.a" />
+			<Add library="C:/opencv/x64/mingw/lib/libopencv_imgcodecs411.dll.a" />
+			<Add library="C:/opencv/x64/mingw/lib/libopencv_imgproc411.dll.a" />
+			<Add library="C:/opencv/x64/mingw/lib/libopencv_ml411.dll.a" />
+			<Add library="C:/opencv/x64/mingw/lib/libopencv_objdetect411.dll.a" />
+			<Add library="C:/opencv/x64/mingw/lib/libopencv_photo411.dll.a" />
+			<Add library="C:/opencv/x64/mingw/lib/libopencv_stitching411.dll.a" />
+			<Add library="C:/opencv/x64/mingw/lib/libopencv_video411.dll.a" />
+			<Add library="C:/opencv/x64/mingw/lib/libopencv_videoio411.dll.a" />
+			<Add directory="C:/opencv/x64/mingw/bin" />
+		</Linker>
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
