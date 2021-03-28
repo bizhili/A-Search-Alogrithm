@@ -42,7 +42,7 @@ Adjust different heuristic functions to approach various search algorithm
   <img src="https://github.com/bizhili/A-Search-Alogrithm/blob/main/pic/sqrt(xxplusyy)1000.png" width="320" height="320">
 </p>
 
-- <img src="https://render.githubusercontent.com/render/math?math=h(n)=\sqrt{x_n^2%2By_n^2}/1000">(Hight weight of heuristic function,similar to Brute Force Search Algorithm)：
+- <img src="https://render.githubusercontent.com/render/math?math=h(n)=\sqrt{x_n^2%2By_n^2}/1000">(Low weight of heuristic function,similar to Brute Force Search Algorithm)：
 
 <p align="center">
   <img src="https://github.com/bizhili/A-Search-Alogrithm/blob/main/pic/sqrt(xxplusyy)divide1000.png" width="320" height="320">
