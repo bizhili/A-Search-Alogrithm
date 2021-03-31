@@ -5,7 +5,7 @@ A* Search Alogrithm demostrating with UI interface
 </p>
 
 # (0)Environment
-- Win10 X86
+- Win10 X64
 - CodeBlocks
 - opencv(just few steps to config CodeBlocks with opencv,following [Link](https://blog.csdn.net/libizhide/article/details/108417216?spm=1001.2014.3001.5501))
 
