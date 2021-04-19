@@ -1,4 +1,4 @@
-# A-Search-Alogrithm
+# A-Search-Algorithm
 A* Search Alogrithm demostrating with UI interface
 <p align="center">
   <img src="https://github.com/bizhili/A-Search-Alogrithm/blob/main/pic/sqrt(xxplusyy).png" width="640" height="640">
